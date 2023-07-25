@@ -1,0 +1,36 @@
+.app{
+  height: 100vh;
+  text-align: center;
+}
+
+.app.dark {
+  text-align: center;
+
+  background-color: #282c34;
+  color: white
+}
+
+
+.app.light{
+  text-align: center;
+  color: white;
+  background-color: #97b1ee;
+}
+
+.svg-container {
+  position: absolute;
+  left: 5px; /* İkinci parametreyi ayarlayarak yatay pozisyonunu ayarlayabilirsiniz */
+  top: 5px; /* İkinci parametreyi ayarlayarak dikey pozisyonunu ayarlayabilirsiniz */
+  pointer-events: none; /* SVG içeriğinin tıklanabilir olmasını engeller */
+}
+
+input.form-control {
+  position: relative;
+  z-index: 1;
+}
+
+.col {
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  /* Diğer stiller */
+}
